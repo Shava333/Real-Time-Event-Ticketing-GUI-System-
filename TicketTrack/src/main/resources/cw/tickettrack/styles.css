@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* General Layout Styling */
+.main-layout, .form-layout {
+    -fx-background-color: #eadbbf; /* Light Orange */
+    -fx-padding: 30;
+}
+
+/* Main Tab Title */
+.main-title {
+    -fx-font-size: 28px; /* Increased font size */
+    -fx-font-weight: bold;
+    -fx-text-fill: #E65100;
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+
+/* Tab Headings */
+.tab-heading {
+    -fx-font-size: 24px; /* Increased font size */
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFA726;
+    -fx-padding: 10 0;
+    -fx-alignment: center;
+}
+
+/* Button Styling */
+.button {
+    -fx-background-color: #FFA726;
+    -fx-text-fill: white;
+    -fx-font-size: 12px; /* Smaller button text */
+    -fx-font-weight: bold;
+    -fx-padding: 10 20; /* Reduced padding */
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-border-color: #FFB74D;
+    -fx-border-width: 2;
+}
+
+.button:hover {
+    -fx-background-color: #FF9800;
+    -fx-border-color: #E65100;
+}
+
+/* Label Styling */
+.label {
+    -fx-text-fill: #E65100;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
